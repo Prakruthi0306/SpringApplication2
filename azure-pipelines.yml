@@ -32,5 +32,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'Prakruthi123'
+    repository: 'Prakruthi12345'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
